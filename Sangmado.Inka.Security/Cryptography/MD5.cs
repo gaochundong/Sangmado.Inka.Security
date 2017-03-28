@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public static class MD5
     {

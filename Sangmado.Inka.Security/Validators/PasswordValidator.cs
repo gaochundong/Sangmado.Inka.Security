@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public class PasswordOptions
     {

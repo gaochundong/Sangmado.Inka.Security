@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public static class Base64
     {

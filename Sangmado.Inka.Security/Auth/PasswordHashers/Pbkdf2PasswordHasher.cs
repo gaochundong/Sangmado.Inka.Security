@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography;
-using RockStone.Inka.Security.Cryptography.KeyDerivation;
+using Sangmado.Inka.Security.Cryptography.KeyDerivation;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public class Pbkdf2PasswordHasher : IPasswordHasher
     {

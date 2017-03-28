@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Mail;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public static class EmailValidator
     {

@@ -4,7 +4,7 @@ using System.Net;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     internal static class Rfc6238AuthenticationService
     {

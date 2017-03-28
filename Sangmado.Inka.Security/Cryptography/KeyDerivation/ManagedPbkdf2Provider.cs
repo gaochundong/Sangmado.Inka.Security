@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace RockStone.Inka.Security.Cryptography.KeyDerivation
+namespace Sangmado.Inka.Security.Cryptography.KeyDerivation
 {
     /// <summary>
     /// A PBKDF2 provider which utilizes the managed hash algorithm classes as PRFs.

@@ -1,5 +1,5 @@
 ﻿
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public interface IPasswordHasher
     {

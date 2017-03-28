@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public class UserNameOptions
     {

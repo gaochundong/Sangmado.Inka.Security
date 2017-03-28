@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace RockStone.Inka.Security
+namespace Sangmado.Inka.Security
 {
     public class TotpSecurityStampBasedTokenProvider : ISecurityTokenProvider
     {

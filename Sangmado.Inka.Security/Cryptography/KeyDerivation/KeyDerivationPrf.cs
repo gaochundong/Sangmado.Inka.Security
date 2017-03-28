@@ -1,5 +1,5 @@
 ﻿
-namespace RockStone.Inka.Security.Cryptography.KeyDerivation
+namespace Sangmado.Inka.Security.Cryptography.KeyDerivation
 {
     /// <summary>
     /// Specifies the PRF which should be used for the key derivation algorithm.
