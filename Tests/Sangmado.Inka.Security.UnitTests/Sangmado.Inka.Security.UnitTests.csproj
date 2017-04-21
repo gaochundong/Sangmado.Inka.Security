@@ -57,8 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Cryptography\Signature\PEMKeys\app_private_key.pem" />
-    <None Include="Cryptography\Signature\PEMKeys\app_public_key.pem" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Sangmado.Inka.Security\Sangmado.Inka.Security.csproj">

@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3C2304FB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Inka.Security.UnitTests", "Tests\Sangmado.Inka.Security.UnitTests\Sangmado.Inka.Security.UnitTests.csproj", "{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Inka.Security.TestConsole", "Tests\Sangmado.Inka.Security.TestConsole\Sangmado.Inka.Security.TestConsole.csproj", "{EBDF603A-7926-41A4-B159-DB9713E36F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +30,16 @@ Global
 		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDF603A-7926-41A4-B159-DB9713E36F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDF603A-7926-41A4-B159-DB9713E36F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDF603A-7926-41A4-B159-DB9713E36F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDF603A-7926-41A4-B159-DB9713E36F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A} = {3C2304FB-8F39-4BAD-A967-BBF2BF7AE56D}
+		{EBDF603A-7926-41A4-B159-DB9713E36F63} = {3C2304FB-8F39-4BAD-A967-BBF2BF7AE56D}
 	EndGlobalSection
 EndGlobal
