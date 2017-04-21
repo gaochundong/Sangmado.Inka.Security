@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C1B13287-07E4-429D-90F0-A4DBC3670C92}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Inka.Security", "Sangmado.Inka.Security\Sangmado.Inka.Security.csproj", "{1E84D33A-69D1-4599-8E52-BAC42B836DAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3C2304FB-8F39-4BAD-A967-BBF2BF7AE56D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sangmado.Inka.Security.UnitTests", "Tests\Sangmado.Inka.Security.UnitTests\Sangmado.Inka.Security.UnitTests.csproj", "{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,8 +24,15 @@ Global
 		{1E84D33A-69D1-4599-8E52-BAC42B836DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E84D33A-69D1-4599-8E52-BAC42B836DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E84D33A-69D1-4599-8E52-BAC42B836DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0B17B29-708D-4CD3-A280-5B11A3A3C32A} = {3C2304FB-8F39-4BAD-A967-BBF2BF7AE56D}
 	EndGlobalSection
 EndGlobal
