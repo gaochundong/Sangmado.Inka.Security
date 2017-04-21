@@ -5,12 +5,12 @@ namespace Sangmado.Inka.Security
 {
     public static class SHA256withRSA
     {
-        public static string Sign(string privateKey, byte[] buffer)
+        public static string Sign(string privateKeyXmlString, byte[] buffer)
         {
             using (HashAlgorithm hashAlgorithm = SHA256.Create())
             using (AsymmetricAlgorithm rsa = RSA.Create())
             {
-                rsa.FromXmlString(privateKey);
+                rsa.FromXmlString(privateKeyXmlString);
 
                 AsymmetricSignatureFormatter signatureFormatter = new RSAPKCS1SignatureFormatter(rsa);
                 signatureFormatter.SetHashAlgorithm(@"SHA256");
@@ -22,12 +22,12 @@ namespace Sangmado.Inka.Security
             }
         }
 
-        public static bool Verify(string publicKey, byte[] buffer, string signature)
+        public static bool Verify(string publicKeyXmlString, byte[] buffer, string signature)
         {
             using (HashAlgorithm hashAlgorithm = SHA256.Create())
             using (AsymmetricAlgorithm rsa = RSA.Create())
             {
-                rsa.FromXmlString(publicKey);
+                rsa.FromXmlString(publicKeyXmlString);
 
                 AsymmetricSignatureDeformatter signatureDeformatter = new RSAPKCS1SignatureDeformatter(rsa);
                 signatureDeformatter.SetHashAlgorithm(@"SHA256");
