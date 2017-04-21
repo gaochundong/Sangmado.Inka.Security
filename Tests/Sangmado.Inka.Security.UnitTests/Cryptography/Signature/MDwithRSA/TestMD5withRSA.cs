@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Sangmado.Inka.Security.UnitTests
 {
     [TestClass]
-    public class TestSHA384withRSA
+    public class TestMD5withRSA
     {
         public static readonly string RSAPrivateKeyXmlString = @"
 <RSAKeyValue>
@@ -32,13 +32,13 @@ namespace Sangmado.Inka.Security.UnitTests
 ";
 
         [TestMethod]
-        public void Test_SHA384withRSA_Sign_Verify()
+        public void Test_MD5withRSA_Sign_Verify()
         {
             string content = @"Hello World";
             byte[] buffer = Encoding.UTF8.GetBytes(content);
 
-            string signature = SHA384withRSA.Sign(RSAPrivateKeyXmlString, buffer);
-            bool verified = SHA384withRSA.Verify(RSAPublicKeyXmlString, buffer, signature);
+            string signature = MD5withRSA.Sign(RSAPrivateKeyXmlString, buffer);
+            bool verified = MD5withRSA.Verify(RSAPublicKeyXmlString, buffer, signature);
 
             Assert.IsTrue(verified);
         }

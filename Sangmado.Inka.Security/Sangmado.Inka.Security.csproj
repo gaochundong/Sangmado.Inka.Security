@@ -52,10 +52,10 @@
     <Compile Include="Authentication\TwoFactors\ISecurityTokenProvider.cs" />
     <Compile Include="Authentication\TwoFactors\Rfc6238AuthenticationService.cs" />
     <Compile Include="Authentication\TwoFactors\TotpSecurityStampBasedTokenProvider.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\SHA384withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\SHA512withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\SHA256withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\SHA1withRSA.cs" />
+    <Compile Include="Cryptography\Signature\MDwithRSA\MD5withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\SHA512withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\SHA256withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\SHA1withRSA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Authentication\Password\Validator\PasswordValidator.cs" />
   </ItemGroup>

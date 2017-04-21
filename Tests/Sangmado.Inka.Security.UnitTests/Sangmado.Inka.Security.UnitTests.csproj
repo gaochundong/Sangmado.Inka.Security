@@ -49,16 +49,16 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cryptography\SHAwithRSA\TestSHA384withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\TestSHA512withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\TestSHA256withRSA.cs" />
-    <Compile Include="Cryptography\SHAwithRSA\TestSHA1withRSA.cs" />
+    <Compile Include="Cryptography\Signature\MDwithRSA\TestMD5withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\TestSHA512withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\TestSHA256withRSA.cs" />
+    <Compile Include="Cryptography\Signature\SHAwithRSA\TestSHA1withRSA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Cryptography\SHAwithRSA\RSAKeys\app_private_key.pem" />
-    <None Include="Cryptography\SHAwithRSA\RSAKeys\app_public_key.pem" />
+    <None Include="Cryptography\Signature\SHAwithRSA\RSAKeys\app_private_key.pem" />
+    <None Include="Cryptography\Signature\SHAwithRSA\RSAKeys\app_public_key.pem" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Sangmado.Inka.Security\Sangmado.Inka.Security.csproj">
